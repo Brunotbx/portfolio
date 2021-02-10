@@ -1,0 +1,16 @@
+
+.action {
+    display: inline-flex;
+    color: #fff;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  
+  .action::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #10ac84;
+  }

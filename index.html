@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bruno Front-end Dev</title>
+    <title>Bruno FrontEnd Dev</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
@@ -12,31 +12,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/components/title.css">
     <link rel="stylesheet" href="./css/components/subtitle.css">
     <link rel="stylesheet" href="./css/components/box.css">
+    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/action.css">
+    <link rel="stylesheet" href="./css/components/header.css">
     
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <img src="./assets/images/logo.png" alt="logo" />
 
-      <nav>
-        <a href="" lang="en">Skills</a>
-        <a href="">Projetos</a>
-        <a href="">Sobre</a>
-        <a href="">Contatos</a>
-        <a id="button" href="" lang="en">Download CV</a>
+      <nav class="navigation">
+        <a class="action" href="" lang="en">Skills</a>
+        <a class="action" href="">Projetos</a>
+        <a class="action" href="">Sobre</a>
+        <a class="action" href="">Contatos</a>
+        <a class="button" href="" lang="en">Download CV</a>
       </nav>
     </header>
 
     <section class="banner" >
-      <div id="box-title">
-        <h1>Bruno Tebexerini</h1>
-        <h2>FrontEnd Developer</h2>
+      <div class="box-title">
+        <h1 class="title">Bruno Tebexerini</h1>
+        <h2 class="subtitle">FrontEnd Developer</h2>
       </div>
+
+      <a class="button" href="" lang="en">Download CV</a>
+      <a class="button" href="">Contatos</a>
     </section>
   </body>
 </html>
