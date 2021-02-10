@@ -90,22 +90,3 @@ a::before{
   display: grid;
   align-content: center;
 }
-
-.box-info h1{
-  display: block;
-  margin: auto;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 30px;
-  color: #5AE4A8;
-  filter: drop-shadow(4px 4px 0px #000000);
-  margin-bottom: 20px;
-}
-
-.box-info h3{
-  display: block;
-  margin: auto;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-  color: #fff;
-  filter: drop-shadow(4px 4px 0px #000000);
-}
