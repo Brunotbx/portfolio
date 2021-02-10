@@ -63,30 +63,3 @@ a::before{
 		background-position: 0% 50%;
 	}
 }
-
-
-.banner{
-  width: 100%;
-  max-width: 80vw;
-  margin: auto;
-  height: 100vh;
-  background-image: url("../assets/images/banner.jpg");
-  background-position: right 0% top 40%;
-  background-size: 50% auto;
-  background-repeat: no-repeat;
-}
-
-.box-info{
-  display: inline-flex;
-  margin-top: 100px;
-  margin-left: 50px;
-  width: 627px;
-  height: 184px;
-  background-color: #3A4042;
-  box-shadow: 10px 10px 0 #000;
-}
-
-.box-info{
-  display: grid;
-  align-content: center;
-}

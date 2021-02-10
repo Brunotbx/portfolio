@@ -1,0 +1,22 @@
+/* .banner{
+    width: 100%;
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+    background-image: url("../../assets/images/banner.jpg");
+    background-position: right 0% top 40%;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+  } */
+
+#box-title{
+    display: inline-block;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 45px;
+}
+
+#box-title h1{
+    margin-bottom: 20px;
+}
