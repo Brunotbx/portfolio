@@ -14,3 +14,7 @@
     margin-right: 10px;
     background-color: #10ac84;
   }
+
+  .action:hover{
+    color: #888;
+  }
