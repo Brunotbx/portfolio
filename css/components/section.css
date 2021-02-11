@@ -1,6 +1,8 @@
 .section{
     background-color: #222F3E;
-    height: 80vh;
-    padding: 50px 0px 100px 0px;
+    height:100%;
+    padding: 50px 0px 50px 0px;
     border-bottom: 10px solid #000;
+    display: flex;
+    flex-direction: column;
 }

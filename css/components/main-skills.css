@@ -3,6 +3,7 @@
     font-size: 25px;
     color: #fff;
     display: flex;
+    margin-bottom: 40px;
 }
 
 .main-skills .icon{
@@ -16,5 +17,5 @@
 .main-skills .right{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }

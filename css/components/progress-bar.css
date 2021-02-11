@@ -2,6 +2,7 @@
     box-sizing: border-box;
     border: 5px solid #000;
     height: 30px;
+    width: 300px;
 }
 
 .progress-bar::-webkit-progress-bar,
