@@ -10,3 +10,8 @@
 .section .main-title._second {
     margin-bottom: 50px;
 }
+
+.section._black{
+    background-color: #000;
+    margin-bottom: 20px;
+}
