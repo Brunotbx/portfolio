@@ -1,13 +1,4 @@
-.projects{
+.wrapper-projects{
     display: flex;
-    align-items: center;
-}
-
-.wrapper-projects .img:nth-child(even){
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.img {
-    margin: 40px 0px;
+    justify-content: center;
 }
